@@ -6,7 +6,9 @@ Steps to raise 3 Kafka nodes and 1 Zookeeper node on AWS by Terraform:
 1.	Need to export variables in shell: 
 
 export AWS_ACCESS_KEY_ID="myAccessKey"
+
 export AWS_SECRET_ACCESS_KEY="mySecretAccessKey"
+
 export AWS_DEFAULT_REGION="us-east-2" 
 
 ### Change values in variables to yours.
